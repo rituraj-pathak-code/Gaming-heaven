@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="./css/tictactoe.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-info">
+        <h1 id="heading">TicTacToe</h1>
+        <p class="player-turn">X's turn</p>
+        <button class="reset" id="restart">Reset</button>
+      </div>
+      <div class="game-board">
+        <div
+          class="box"
+          id="0"
+          style="border-top: none; border-left: none"
+        ></div>
+        <div class="box" id="1" style="border-top: none"></div>
+        <div
+          class="box"
+          id="2"
+          style="border-top: none; border-right: none"
+        ></div>
+        <div class="box" id="3" style="border-left: none"></div>
+        <div class="box" id="4"></div>
+        <div class="box" id="5" style="border-right: none"></div>
+        <div
+          class="box"
+          id="6"
+          style="border-left: none; border-bottom: none"
+        ></div>
+        <div class="box" id="7" style="border-bottom: none"></div>
+        <div
+          class="box"
+          id="8"
+          style="border-right: none; border-bottom: none"
+        ></div>
+      </div>
+    </div>
+    <script src="./js/tictactoe.js"></script>
+  </body>
+</html>
